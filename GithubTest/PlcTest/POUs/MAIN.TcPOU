@@ -9,7 +9,16 @@ VAR
 END_VAR
 ]]></Declaration>
     <Implementation>
-      <ST><![CDATA[iALive := iAlive + 1;]]></ST>
+      <ST><![CDATA[iALive := iAlive + 1;
+
+IF iAlive = 1000 THEN
+	kat := TRUE;
+ELSIF iAlive = 3000 THEN
+	kat := FALSE;
+END_IF
+
+Hund := Kat;
+]]></ST>
     </Implementation>
   </POU>
 </TcPlcObject>
