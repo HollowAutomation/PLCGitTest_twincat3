@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TcPlcObject Version="1.1.0.1">
+  <POU Name="MAIN" Id="{fe1eaf0d-cea0-4d8d-a0ff-878a06b7d758}" SpecialFunc="None">
+    <Declaration><![CDATA[PROGRAM MAIN
+VAR
+	iAlive : int;
+END_VAR
+]]></Declaration>
+    <Implementation>
+      <ST><![CDATA[iALive := iAlive + 1;]]></ST>
+    </Implementation>
+  </POU>
+</TcPlcObject>
