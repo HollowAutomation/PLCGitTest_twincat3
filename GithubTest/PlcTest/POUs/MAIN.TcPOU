@@ -3,7 +3,9 @@
   <POU Name="MAIN" Id="{fe1eaf0d-cea0-4d8d-a0ff-878a06b7d758}" SpecialFunc="None">
     <Declaration><![CDATA[PROGRAM MAIN
 VAR
-	iAlive : int;
+	iAlive : INT;
+	Kat : BOOL;
+	Hund : bool;
 END_VAR
 ]]></Declaration>
     <Implementation>
